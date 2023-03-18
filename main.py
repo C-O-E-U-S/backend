@@ -7,12 +7,12 @@ import openai
 app = Flask(__name__)
 load_dotenv()
 # Set up the OpenAI API key
-openai.api_key = "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"
+openai.api_key = "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"
 # openai.api_key = "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"
-model_engine = "text-davinci-002"
+model_engine = "text-davinci-003"
 
 # Endpoint for processing user queries
-@app.route("/query", methods=["POST"])
+@app.route("/api/generate-answer", methods=["POST"])
 def query_bot():
     # Get the user query from the request body
     user_query = request.json["query"]
