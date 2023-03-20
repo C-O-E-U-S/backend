@@ -1,17 +1,17 @@
 openai
-click==7.1.2
-Flask==1.1.2
-gunicorn==20.0.4
-itsdangerous==1.1.0
-Jinja2==2.11.3
-MarkupSafe==1.1.1
-Werkzeug==1.0.1
+click
+Flask
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
 flask
 torch
 Pillow
 salesforce-lavis
 requests
-torch==2.0.0
-torchvision==0.15.1
-urllib3==1.26.15
+torch
+torchvision
+urllib3
 
