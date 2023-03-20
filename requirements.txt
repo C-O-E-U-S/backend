@@ -10,7 +10,3 @@ flask
 torch
 Pillow
 salesforce-lavis
-requests
-torch
-torchvision
-urllib3
