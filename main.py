@@ -1,6 +1,7 @@
 # from urllib import request
 from flask import Flask, jsonify, request
 import os
+from flask_cors import CORS
 from Image_process import lavis
 import openai
 
