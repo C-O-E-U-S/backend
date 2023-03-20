@@ -5,7 +5,6 @@ from Image_process import lavis
 import openai
 
 app = Flask(__name__)
-load_dotenv()
 # Set up the OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
