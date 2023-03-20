@@ -14,4 +14,3 @@ requests
 torch
 torchvision
 urllib3
-
