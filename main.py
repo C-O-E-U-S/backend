@@ -1,6 +1,5 @@
 # from urllib import request
 from flask import Flask, jsonify, request
-from dotenv import load_dotenv
 import os
 from Image_process import lavis
 import openai
